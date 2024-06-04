@@ -20,7 +20,7 @@ import re
 
 
 # Load the trained model
-model = YOLO("best.pt")
+model = YOLO("https://huggingface.co/spaces/zliang/PDFReadingAssistant/resolve/main/best.pt")
 openai_api_key = os.environ.get("openai_api_key")
 
 # Define the class indices for figures, tables, and text
