@@ -18,9 +18,9 @@ from langchain_openai import ChatOpenAI
 import string
 import re
 
-
+os.system("curl -L -o best.pt https://huggingface.co/spaces/zliang/PDFReadingAssistant/resolve/main/best.pt")
 # Load the trained model
-model = YOLO("https://huggingface.co/spaces/zliang/PDFReadingAssistant/resolve/main/best.pt")
+model = YOLO("best.pt")
 openai_api_key = os.environ.get("openai_api_key")
 
 # Define the class indices for figures, tables, and text
