@@ -386,7 +386,7 @@ st.markdown("""
 
 # Streamlit interface
 # Streamlit interface
-st.title("📄 PDF Reading Assistant")
+st.title("📄 Journal Article PDF Reading Assistant")
 st.markdown("### Extract tables, figures, summaries, and answers from your PDF files easily.")
 
 uploaded_file = st.file_uploader("Upload a PDF", type="pdf")
