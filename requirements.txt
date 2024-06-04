@@ -1,4 +1,5 @@
 numpy
+opencv-python
 pymupdf
 scikit-learn
 langchain_core
